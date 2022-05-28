@@ -54,7 +54,7 @@ class GetStartedPage extends StatelessWidget {
                     style: TextButton.styleFrom(
                       backgroundColor: kPrimaryColor,
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(17),
+                        borderRadius: BorderRadius.circular(defaultRadius),
                       ),
                     ),
                     child: Text(
